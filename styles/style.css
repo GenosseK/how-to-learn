@@ -68,7 +68,7 @@
   position: absolute;
   width: 765px;
   height: 608px;
-  background-size: cover;
+  object-fit: cover;
   right: 0;
   bottom: 0;
   z-index: -1;
@@ -148,7 +148,7 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  margin: 24px auto 0;
+  margin: 20px auto 0;
 }
 
 .table {
@@ -304,13 +304,10 @@
   margin: 0;
 }
 
-ul { 
-  padding-inline-start: 0; 
-}
-
 .footer__column-links {
   margin: 20px 0 16px 0;
   list-style: none;
+  padding-inline-start: 0;
 }
 
 .footer__column-link {
