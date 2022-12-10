@@ -1,9 +1,11 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/page/page.css);
+@import url(../blocks/rotation/rotation.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
 @import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/links/link_transition_opacity.css);
 @import url(../blocks/header/__main-illustration/header__main-illustration.css);
 @import url(../blocks/header/__square-pic/header__square-pic.css);
 @import url(../blocks/logo/logo.css);
@@ -40,3 +42,174 @@
 @import url(../blocks/footer/__columns/_column/footer__column-links.css);
 @import url(../blocks/footer/__columns/_column/footer__column-link.css);
 @import url(../blocks/footer/__social/footer__social-icon.css);
+
+.techniques {
+    width: 80%;
+    margin: 100px auto 0;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px 100px;
+    width: 920px;
+    margin: 0 auto;
+}
+
+.cards__item {
+    margin-top: 60px;
+    width: 200px;
+}
+
+.cards__image {
+    width: 160px;
+    height: 160px;
+    display: block;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.cards__title {
+    list-style: 1.15;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 43px 0 0 0;
+    text-align: center;
+}
+
+.cards__description {
+    line-height: 23px;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 16px 0 0 0;
+    text-align: center;
+}
+
+.video {
+    margin: 100px auto 0 auto;
+}
+
+.video__frames {
+    display: flex;
+    justify-content: center;
+    top: 60px;
+    position: relative;
+}
+
+.video__frame {
+    margin-right: 20px;
+}
+
+.video__frame:last-of-type {
+    margin-right: 0;
+}
+
+.oakley {
+    background-color: #f2f2f2;
+    padding: 160px 0 80px;
+    z-index: -1;
+    position: relative;
+}
+
+.khan {
+    margin-top: 100px;
+    padding-top: 105px;
+    background-color: #f2f2f2;
+}
+
+.khan__container {
+    width: 80%;
+    margin: auto;
+}
+
+.khan__author {
+    line-height: 42px;
+    font-size: 30px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.khan__title {
+    line-height: 1.15;
+    font-size: 60px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.khan__quote {
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 50px 0 0;
+    width: 790px;
+}
+
+.khan__quote-author {
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 36px 0 0;
+}
+
+.khan__quote-author-subline {
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 10px 0 0;
+}
+
+.khan__book-container {
+    margin-top: 68px;
+    display: flex;
+}
+
+.khan__book-pic {
+    width: 608px;
+    height: 620px;
+    background-size: cover;
+}
+
+.khan__buy-link {
+    line-height: 42px;
+    font-size: 30px;
+    font-weight: normal;
+    text-decoration: none;
+    color: #2f80ed;
+    margin-left: 48px;
+
+}
+
+.resources {
+    margin-top: 100px;
+}
+
+.resources__logo-zone {
+    width: 1100px;
+    margin: 80px auto 217px auto;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.resources__link {
+    width: 270px;
+    height: 38px;
+    background: center no-repeat;
+    background-size: contain;
+}
+
+.resources__logo_arzamas {
+    background-image: url(../images/logo/resources-arzamas.svg);
+}
+
+.resources__logo_n1 {
+    background-image: url(../images/logo/resources-n1.svg);
+}
+
+.resources__logo_strelka {
+    background-image: url(../images/logo/resources-strelka.svg);
+}
+
+.resources__logo_polka {
+    background-image: url(../images/logo/resources-polka.svg);
+}
