@@ -1,0 +1,6 @@
+.video__frames {
+    display: flex;
+    justify-content: center;
+    top: 60px;
+    position: relative;
+}
