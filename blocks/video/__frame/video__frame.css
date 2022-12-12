@@ -1,5 +1,8 @@
 .video__frame {
     margin-right: 20px;
+    width: 515px;
+    height: 316px;
+    border: 0px;
 }
 
 .video__frame:last-of-type {
